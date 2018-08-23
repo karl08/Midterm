@@ -3,7 +3,7 @@ data <- ("C:/Users/RM A-225/Desktop/W4V3/Seatwork Midterm/midetrmseatwork_data.c
 Task1 <- function(row_name,column_name){
   data[row_name, column_name]
 }
-Task1(82, 3)
+Task1(82, "Wind")
 
 Task2 <- function(column_name){
   sub <- subset(data, select = column_name)
